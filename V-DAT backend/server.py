@@ -19,9 +19,6 @@ api = Api(app)
 
 CORS(app, resources={r'/*': {'origins': '*'}})
 
-SUBSCRIPTION_KEY = '20fb2829f07c4018938ce3a45fc0bcd1'
-ANOMALY_DETECTOR_ENDPOINT = 'https://v-dat.cognitiveservices.azure.com/anomalydetector/v1.1-preview/timeseries/entire/detect'
-
 
 @api.route('/hello')  # 데코레이터 이용, '/hello' 경로에 클래스 등록
 class HelloWorld(Resource):

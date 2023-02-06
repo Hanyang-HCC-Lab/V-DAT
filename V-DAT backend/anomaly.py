@@ -28,8 +28,9 @@ import pandas as pd
 
 import time
 
-SUBSCRIPTION_KEY = '20fb2829f07c4018938ce3a45fc0bcd1'
-ANOMALY_DETECTOR_ENDPOINT = 'https://v-dat.cognitiveservices.azure.com/anomalydetector/v1.1-preview/timeseries/entire/detect'
+# User own azure API KEY, ENDPOINT
+SUBSCRIPTION_KEY = ''
+ANOMALY_DETECTOR_ENDPOINT = ''
 
 
 class VDAT():
