@@ -1,3 +1,25 @@
 # V-DAT
 
-update 될 예정입니다.
+## V-DAT frontend
+
+### Start frontend server
+
+```
+cd V-DAT\ frontend
+npm install
+npm run serve
+```
+
+## V-DAT backend
+
+### Requirements
+
+### Start backend server
+
+```
+cd V-DAT\ backend
+python server.py
+```
+
+
+
